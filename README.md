@@ -5,19 +5,19 @@ A simple Laravel package for integrating AI APIs (e.g., OpenAI).
 
 1. Install via Composer:
    ```bash
-   composer require Nouman/laravel-ai-tools
+   composer require nouman/laravel-ai-tools
    
 **Usage**
 Once the package is installed and configured, you can use the AiTools facade to interact with the AI API (such as OpenAI).
 
 1. Installation
 To install the package, run the following command:
-composer require Nouman/laravel-ai-tools
+composer require nouman/laravel-ai-tools
 
 2. Publish the Configuration
 After installing the package, publish the configuration file to allow customization (e.g., setting the API key):
 
-php artisan vendor:publish --provider="Nouman\LaravelAiTools\PackageServiceProvider" --tag=config
+php artisan vendor:publish --provider="nouman\LaravelAiTools\PackageServiceProvider" --tag=config
 
 This will generate a file at config/ai-tools.php
 
