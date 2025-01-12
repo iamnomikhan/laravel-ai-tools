@@ -1,5 +1,5 @@
 {
-    "name": "Nouman/laravel-ai-tools",
+    "name": "nouman/laravel-ai-tools",
     "description": "A Laravel package for easy integration with AI APIs like OpenAI.",
     "type": "library",
     "require": {
