@@ -34,15 +34,20 @@ Once everything is set up, you can use the package to interact with the AI API.
 Example: Generating AI Text
 use AiTools;
 // Generate AI-powered response
-Route::get('/generate-text', function () {
+
+Route::get('/generate-text', function () 
+{
 $text = 'What is Laravel?';
     $response = AiTools::generateText($text);
-    return response()->json($response);});
+    return response()->json($response);
+}
+);
     
 Example: Using in Controller
 You can also use the AI service within a controller:
 use AiTools;
 // Generate AI-powered response
+
 class AiController extends Controller
 {
     public function generateText()
