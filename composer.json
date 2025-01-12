@@ -3,7 +3,7 @@
     "description": "A Laravel package for easy integration with AI APIs like OpenAI.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.8"
+        "guzzlehttp/guzzle": "^7.9"
     },
     "license": "MIT",
     "autoload": {
